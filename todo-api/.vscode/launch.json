@@ -5,19 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Launch file",
-            "type": "go",
-            "request": "launch",
-            "mode": "debug",
-            "program": "${file}"
-        },
-        {
-            "name": "Launch Package",
+            "name": "debug main",
             "type": "go",
             "request": "launch",
             "mode": "auto",
-            "program": "${fileDirname}",
-            "stopOnEntry": true
+            "args": [
+            ],
+            "program": "${fileDirname}/main.go"
         }
     ]
 }
